@@ -10,6 +10,13 @@
   color: #2c3d51;
   font-family:  helvetica;
 }
+.container h2 {
+  font-size: 25px;
+}
+.container p {
+  line-height: 23px;
+  font-size: 16px;
+}
 .clearfix::after {
   content: "";
   display: table;
@@ -185,8 +192,6 @@ padding: 20px 0;
 }
 #top-row p {
   padding: 10px 60px 30px;
-  line-height: 20px;
-  font-size: 16px;
 }
 /* /top row */
 
@@ -208,6 +213,10 @@ padding: 20px 0;
 /* contenuto dei corsi middle row e columns */
 #columns h3, #middle-row h3 {
   padding: 30px 0;
+}
+#columns h4, #middle-row h4 {
+  text-transform: uppercase;
+  font-size: 15px;
 }
 #columns p, #middle-row p {
   line-height: 22px;
@@ -289,13 +298,26 @@ padding: 20px 0;
 /*main-middle griglia */
 #back-main-middle {
   width: 100%;
-  height: 400px;
   background-color: #32bec6;
+  padding: 60px 0 120px;
+}
+#main-middle {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+#title-grid {
+  padding-bottom: 80px;
+}
+#title-grid h2 {
+  padding: 30px 80px;
+}
+#grid {
+  margin-bottom: 80px;
 }
 .cube {
   width: calc(100% / 4);
-  height: 100px;
-  background-color: red;
+  height: 210px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   float: left;
@@ -305,6 +327,32 @@ div #grid .cube:nth-child(1n + 5) {
 }
 div #grid .cube:nth-child(4n + 4){
   border-right: none;
+}
+.cube img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+#grid .cube:nth-child(2) img{
+  width: 90px;
+}
+#grid .cube:nth-child(5) img {
+  width: 140px;
+}
+#grid .cube:nth-child(1n + 3) img {
+  width: 120px;
+}
+#grid .cube:nth-child(1n + 6) img {
+  width: 30px;
+}
+.cube h3 {
+  font-size: 40px;
+  padding: 20px;
+}
+.cube i {
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 5px;
 }
 /*/ main-middle */
 /* main-bottom */
