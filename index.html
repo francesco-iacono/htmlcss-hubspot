@@ -46,23 +46,48 @@
           <div class="container clearfix">
             <img src="img/logo.svg" alt="logo hubspot">
             <ul class="list-inline">
-              <li><a href="#">Software</a></li>
-              <i class="fas fa-angle-down"></i>
-              <li><a href="#">Princing</a></li>
-              <li><a href="#">Resources</a></li>
-              <i class="fas fa-angle-down"></i>
-              <li><a href="#">Partners</a></li>
-              <i class="fas fa-angle-down"></i>
-              <li><a href="#">About</a></li>
-              <i class="fas fa-angle-down"></i>
+              <li>
+                <a href="#">Software</a>
+                <i class="fas fa-angle-down"></i>
+              </li>
+              <li>
+                <a href="#">Princing</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+                <i class="fas fa-angle-down"></i>
+              </li>
+              <li>
+                <a href="#">Partners</a>
+                <i class="fas fa-angle-down"></i>
+              </li>
+              <li>
+                <a href="#">About</a>
+                <i class="fas fa-angle-down"></i>
+              </li>
             </ul>
           </div>
         </div>
         <!-- /bottomnav - menu -->
       <!--/ header-top -->
 
-      <!-- header-middle -->
+      <!-- jumbotron -->
       <div id="jumbotron">
+        <div id="body-messages">
+          <div id="top-img">
+            <img src="https://static.hsappstatic.net/bots-ui-app/ex/bot-avatar.jpg" alt="">
+          </div>
+          <div id="text-messages">
+            <p>👋 Want to chat about HubSpot? I'm here to help you find your way.</p>
+            <img src="img/button-messages.JPG" alt="">
+          </div>
+          <div id="bottom-messages">
+            <div id="comment">
+              <img src="img/commit.png" alt="">
+            </div>
+          </div>
+        </div>
+
         <div class="container">
           <div id="jumbotron-title">
             <h1>There’s a better way to grow.</h1>
@@ -74,12 +99,8 @@
           </div>
         </div>
       </div>
-      <!-- /header-middle -->
+      <!-- /jumbotron -->
 
-      <!-- header-bottom -->
-      <div id="header-bottom">
-        </div>
-      <!-- /header-bottom -->
     </header>
     <!-- header -->
 
@@ -108,12 +129,18 @@
              <h4>Popolar Feature</h4>
              <hr>
              <ul class="list-inline">
-               <i class="fas fa-chevron-circle-down"></i>
-               <li>Contact Insight</li>
-               <i class="fas fa-chevron-circle-down"></i>
-               <li>Deals</li>
-               <i class="fas fa-chevron-circle-down"></i>
-               <li>Task</li>
+               <li>
+                 <i class="fas fa-chevron-circle-down"></i>
+                 Contact Insight
+               </li>
+               <li>
+                 <i class="fas fa-chevron-circle-down"></i>
+                 Deals
+               </li>
+               <li>
+                 <i class="fas fa-chevron-circle-down"></i>
+                 Task
+               </li>
              </ul>
            </div>
           </div>
@@ -322,6 +349,7 @@
     <footer>
       <section id="back-footer">
         <div class="container clearfix">
+          <!-- footer-top -->
           <div id="footer-nav">
             <ul class="list-vertical">
               <li>Increase Your Traffic</li>
@@ -344,13 +372,13 @@
             <ul class="list-vertical">
               <li>Connect With Leads</li>
               <li>
-                <li>
                   <a href="#">Find New Prospects</a>
-                </li>
+              </li>
+              <li>
                 <a href="#">Email Tracking</a>
               </li>
               <li>
-                <a href="#">Sales Email Templates/a>
+                <a href="#">Sales Email Templates</a>
               </li>
               <li>
                 <a href="#">Click to Call Your Leads</a>
@@ -362,7 +390,7 @@
             <ul class="list-vertical">
               <li>Close and Manage Leads</li>
               <li>
-                <a href="#">Document Tracking Tool/a>
+                <a href="#">Document Tracking Tool</a>
               </li>
               <li>
                 <a href="#">Meeting Schedule Tool</a>
@@ -395,15 +423,37 @@
                 <a href="#">Free Tools & Generators</a>
               </li>
               <button class="btn" type="button" name="button">Contact HubSpot Support</button>
-              <div id="social">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
+              <ul id="social" class="list-inline">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
             </ul>
           </div>
+          <!-- /footer-top -->
+          <!-- footer-middle -->
           <div id="footer-middle">
             <ul class="list-inline">
               <li><a href="#">English</a></li>
@@ -414,6 +464,8 @@
               <li><a href="#">Français</a></li>
             </ul>
           </div>
+          <!-- /footer-middle -->
+          <!-- footer-bottom -->
           <div id="footer-bottom">
             <div id="footer-logo">
               <img src="img/logo-white.svg" alt="logo hubspot">
@@ -425,14 +477,11 @@
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
             </div>
-
           </div>
-
-
+          <!-- /footer-bottom -->
         </div>
       </section>
-
     </footer>
     <!-- /footer -->
   </body>
-</html
+</html>
