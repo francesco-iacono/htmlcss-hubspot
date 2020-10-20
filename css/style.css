@@ -296,7 +296,7 @@ padding: 20px 0;
   margin: 30px;
   padding: 20px;
 }
-#middle-row, #right, #center, #left {
+#middle-row, .colomn-subject {
   background-color: #FFFFFF;
 }
 
@@ -348,14 +348,15 @@ padding: 20px 0;
 .bottom-column {
   position: relative;
 }
-#right, #center, #left {
+.colomn-subject {
   float: left;
   width: 30%;
   text-align: center;
   padding: 20px 25px;
+  margin-right: 5%;
 }
-#center {
-  margin: 0 5%;
+#columns > div:last-child  {
+  margin: 0;
 }
 #columns h4 {
   padding: 20px;
