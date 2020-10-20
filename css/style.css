@@ -526,11 +526,12 @@ padding-bottom: 30px;
 #footer-nav .list-vertical {
   float: left;
   margin-right: 7%;
+  padding: 25px 0;
 }
-#footer-nav ul li:first-child  {
+#footer-nav > ul li:first-child  {
   font-size: 1.125rem;
   font-weight: 500;
-  padding: 25px 0;
+  padding-bottom: 25px;
 }
 #footer-nav button {
   margin: 5px 0;
@@ -539,6 +540,10 @@ padding-bottom: 30px;
   color: rgb(45, 62, 80);
   font-size: 10.5px;
   font-weight: 600;
+}
+#footer-nav button:hover {
+  background-color: #0091ae;
+  border: 1px solid #0091ae;
 }
 #social i {
   text-decoration: none;
